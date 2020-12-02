@@ -6,7 +6,7 @@ pipeline {
                echo 'cloning the repo in to local server'
           }
        }
-       stage (build') {
+       stage ('build') {
            steps {
                echo 'build the code'
           }
