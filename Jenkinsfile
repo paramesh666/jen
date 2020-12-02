@@ -2,7 +2,7 @@ pipeline {
      agent any
    stages {
        stage ('checkout') {
-           stepes {
+           steps {
                echo 'cloning the repo in to local server'
           }
        }
